@@ -20977,6 +20977,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP4" library="SparkFun-Boards" deviceset="RASPBERRYPI-B+-GPIO" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="TP1" library="testpad" deviceset="PTR1" device="PAD1-13"/>
 </parts>
 <sheets>
 <sheet>
@@ -21160,6 +21161,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND57" gate="1" x="121.92" y="86.36"/>
 <instance part="JP4" gate="G$1" x="50.8" y="83.82"/>
 <instance part="GND2" gate="1" x="33.02" y="48.26"/>
+<instance part="TP1" gate="G$1" x="99.06" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -21765,6 +21767,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="101.6" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="88.9" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="GP22"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<junction x="99.06" y="88.9"/>
 </segment>
 </net>
 </nets>
